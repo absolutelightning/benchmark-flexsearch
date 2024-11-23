@@ -1,5 +1,9 @@
 import FlexSearch from "flexsearch";
 
+/*
+ Fuzzy Search Benchmarking
+*/
+
 // Configure FlexSearch for fuzzy search
 const index = new FlexSearch.Index({
     tokenize: "full",  // Tokenization strategy

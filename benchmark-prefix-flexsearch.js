@@ -13,10 +13,6 @@ const index = new FlexSearch.Index({
     tokenize: "forward",  // Tokenization strategy
     threshold: 0,         // Matching threshold
     resolution: 9,        // Scoring resolution
-    doc: {
-        id: "id",           // Unique identifier for documents
-        field: ["text"],    // Fields to index
-    },
 });
 
 

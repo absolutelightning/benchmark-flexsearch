@@ -28,8 +28,4 @@ const results = index.search("Sample text entry number 500", {limit: 10000});
 console.timeEnd("Search Time");
 
 console.log(`Found ${results.length} results.`);
-
-// results.forEach((item) => {
-//     console.log(item)
-// })
-
+console.log(results);

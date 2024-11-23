@@ -31,3 +31,9 @@ queries.forEach((query) => {
     console.timeEnd(`Search time for "${query}"`);
     console.log(`Results for "${query}":`, results.length); // Display first 10 results
 });
+
+console.time("Search Time");
+const res = index.search("Sample entry number")
+console.timeEnd("Search Time");
+
+console.log(res)

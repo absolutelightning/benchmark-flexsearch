@@ -1,0 +1,8 @@
+{
+  "name": "benchmark-treds-js-flexsearch",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "flexsearch": "^0.7.43"
+  }
+}

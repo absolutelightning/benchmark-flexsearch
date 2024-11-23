@@ -30,7 +30,4 @@ queries.forEach((query) => {
     const results = index.search(query, {limit: 10000});
     console.timeEnd(`Search time for "${query}"`);
     console.log(`Results for "${query}":`, results.length); // Display first 10 results
-    results.forEach((result) => {
-        console.log(result);
-    })
 });
